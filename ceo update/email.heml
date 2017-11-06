@@ -1,0 +1,423 @@
+<heml>
+
+    <head>
+        <subject>CEO Update</subject>
+        <style heml-ignore>
+            @media only screen and (max-width:600px) {
+                .left-padding {
+                    padding-left: 15px !important;
+                    padding-right: 15px !important;
+                }
+
+                .right-padding {
+                    padding-left: 15px !important;
+                    padding-right: 15px !important;
+                }
+                .padding-x{
+                    padding-left: 15px !important;
+                    padding-right: 15px !important;
+                }
+                .mob-padding-none{
+                    padding: 0 !important;
+                }
+            }
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+            body {
+                font-family: 'Open Sans', sans-serif;
+                color: #414042;
+                background: #f9f9f9;
+            }
+
+            h1 {
+                color: DarkViolet;
+            }
+
+            container {
+                max-width: 800px;;
+            }
+
+            .column.padding {
+                padding: 15px 45px;
+            }
+
+            .column.padding-l-r {
+                padding: 0 45px;
+            }
+
+            .row.padding {
+                margin-left: 30px;
+                margin-right: 30px;
+                margin-top: 30px;
+            }
+
+            .bg-01 {
+                background-color: white;
+            }
+
+            .heading-01 {
+                font-style: italic;
+            }
+
+            .heading-02 {
+                text-transform: uppercase;
+                margin-top: 30px;
+                margin-bottom: 0;
+            }
+
+            .bg-02 {
+                background: #404042;
+                color: white;
+            }
+
+            .text-center {
+                text-align: center;
+            }
+
+            h2 {
+                margin: 10px 0;
+            }
+
+            p {
+                text-align: justify;
+            }
+
+            .padding.padding-top-z {
+                padding-top: 0;
+            }
+
+            .footer .column {
+                margin: 15px 0;
+                text-align: center;
+            }
+
+            .footer .column a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .first-p {
+                margin-top: 0;
+            }
+
+            img.banner {
+                width: 800px !important;
+            }
+
+            img.img {
+                width: 345px !important;
+            }
+
+            img.img-01 {
+                width: 355px !important;
+                border: 0;
+                outline: 0;
+            }
+
+            .left-padding {
+                padding-left: 45px;
+                padding-right: 10px;
+            }
+
+            .right-padding {
+                padding-left: 10px;
+                padding-right: 45px;
+            }
+
+            .padding-x {
+                padding: 0 45px;
+            }
+
+            .padding-y {
+                padding: 15px 0;
+            }
+
+            .padding-b {
+                padding-bottom: 15px;
+            }
+
+            .padding-t {
+                padding-top: 15px;
+            }
+
+            .margin-t {
+                margin-top: 15px;
+            }
+
+            .link-01 {
+                font-weight: 600;
+                color: #000;
+                text-decoration: none;
+            }
+
+            .as-part {
+                background: #404042;
+                color: #fff;
+                padding: 20px 15px
+            }
+
+            .verticle-m {
+                vertical-align: middle;
+            }
+            .img-smal-l{
+                margin-right: 7px;
+                width: 165px;
+            }
+            .img-smal-r{
+                margin-left: 7px;
+                width: 165px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <container>
+            <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/header-image.jpg" class="banner" alt="my image" infer />
+        </container>
+        <container class="bg-01">
+            <row>
+                <column class="padding-x padding-t">
+                <h2 class="heading-01">Hectic October continues</h2>
+                </column>
+            </row>
+            <row>
+                <column large="6" small="12">
+                    <row>
+                        <column class="left-padding column">
+                            <p class="first-p">
+                                This month, one of my key focus areas is to consolidate my thoughts on the business plan for Mekanate. I also met with Phaneesh Murthy, the legendary Sales leader who took Infosys to great heights as part of their forays in to the US in 90s and early 2000s. He had good inputs to our Digital Transformation approach which I hope to include in our business plan.
+                            </p>
+                            <p>
+                                To support start-ups, I recently conducted video interviews of emerging entrepreneurs in our own neighborhood. These interviews will be released under the banner called “The Entrepreneur Roundup” in association with
+                            </p>
+                            <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/cusat-pic-_01.jpg" class="img" alt="my image" infer />
+
+                        </column>
+                    </row>
+                </column>
+                <column large="6" small="12">
+                    <row>
+                        <column class="right-padding padding-b column">
+                            <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/cusat-pic-_02.jpg" class="img" alt="my image" infer />
+                            <p>
+                                NASSCOM. The teaser for the first interview <a href="https://twitter.com/kmukund7/status/915915508221751296" target="_blank" class="link-01">(watch teaser)</a> is already out and the final video will be released shortly.
+                            </p>
+                            <p>
+                                Abilash, Avinash and I had a chance to present to the management of the 4000 Cr. Popular Automotive Group. Over 40 senior managers attended our session and our conclusion was that the opportunities for Digital Transformation across industry segments are enormous. On a similar note, I also spoke at the School of Management Studies at CUSAT on Digital Transformation. It was a great opportunity for me to understand the attitudes and talents of the next generation of job seekers.
+
+                            </p>
+                        </column>
+                    </row>
+                </column>
+            </row>
+            <row>
+                <column class="padding-x padding-t padding-b">
+                    <row>
+                        <column class="padding-b mob-padding-none">
+                            <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/teampic-2.jpg" class="img-01" alt="my image" infer />
+                        </column>
+                        <column class="padding-b">
+                            <row>
+                                <column class="as-part">
+                                    <p>
+                                        As part of our plan to get to know you all better, I am meeting with different teams on a weekly basis. I have really enjoyed getting to know a bit more about you, especially your goals and aspirations. I have learnt immensely from these discussions and continue to look forward to them every week.
+                                    </p>
+                                </column>
+                            </row>
+                        </column>
+                    </row>
+                </column>
+            </row>
+        </container>
+        <container class="bg-02">
+            <row>
+                <column class="padding-b">
+                    <h2 class="heading-02 text-center">UPDATES FROM TEAM SUYATI</h2>
+                </column>
+            </row>
+            <row>
+                <column large="6" small="12">
+                    <row>
+                        <column class="left-padding column">
+                            <h2 class="heading-01">Dreamforce 2017</h2>
+                            <p>A key target this month was to effectively gear up for Dreamforce 2017 at San Francisco. Kudos to the marketing, design, web and content teams, for their relentless pursuit to get us ready for DF17. They created blogs, landing pages, whitepapers, infographics, brochures, emailers, calling scripts, etc. and are getting ready to solicit your help in social media support during the event. Equal appreciation for Vinod and his team for support with giveaways, Suyati uniforms, and travel logistics! The sales team is moving in full force to set up as many qualified meetings as possible for DF17. </p>
+                            <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/dreamforce.jpg" class="img" alt="my image" infer />
+
+                        </column>
+                    </row>
+                </column>
+                <column large="6" small="12" class="padding-b">
+                    <row>
+                        <column class="right-padding column">
+                            <h2 class="heading-01">Social Army</h2>
+                            <p>The Marketing and Socxo team are working to create a uniquely branded Suyati SocialArmy application that will serve as a key employee engagement platform. You can expect more teasers!</p>
+                            <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/img-03.jpg" class="img" alt="my image" infer />
+                        </column>
+                    </row>
+                </column>
+            </row>
+            <row>
+                <column class="padding-x padding-t">
+                    <hr />
+                    </column?>
+            </row>
+            <row>
+                <column class="padding-b">
+                    <row>
+                        <column class="left-padding column">
+                            <p>
+                                Sarin Nath will now head the Inside Sales and Data Teams with guidance from Sunil. Faras from the ASA team did an amazing job with guidance from Vibhav and others to deliver over 5 meetings by himself in the past couple of weeks.
+                            </p>
+                            <p>
+                                Sunil met key stakeholders and CEOs at ASL, Hexion, Momentive, Interface and ACE. There is a lot of excitement about leveraging Suyati’s R&D capabilities including our Mekanate framework. Our pipeline looks good especially from our existing clients. Sunil, along with
+                            </p>
+                        </column>
+                        <column class="right-padding column">
+                            <p>
+                                Evita, Vasee and Abhishek are focused on acquiring new client relationships in November and December to drive a strong 2018.
+                            </p>
+                            <row>
+                                <column>
+                                    <row>
+                                        <column large="6" small="12">
+                                            <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/evita.png" class="img-02" alt="my image" infer />
+                                        </column>
+                                        <column large="6" small="12" class="verticle-m">
+                                            <p>
+                                                Congrats to Evita for closing a deal with Pascal51, ably assisted by Raju and the delivery team.
+                                            </p>
+                                        </column>
+                                    </row>
+                                </column>
+                            </row>
+                        </column>
+
+                    </row>
+                </column>
+            </row>
+        </container>
+        <container class="bg-01">
+            <row>
+                <column class="padding-x padding-t">
+                    <h2 class="heading-01">Delivery and Innovation</h2>
+                </column>
+            </row>
+            <row>
+                <column large="6" small="12">
+
+                    <row>
+                        <column class="left-padding column">
+
+                            <p class="first-p">
+                                The delivery team has been very busy in putting systems, KRAs and measurement approaches in place. The Delivery and HR team members worked closely together to put together clear organization charts to ensure that reporting relationships are clear and the stage is set for us to scale our delivery organization.
+                            </p>
+                            <p>
+                                We secured several interesting projects this month including from <b>BitYoga and Pascal51</b>. These projects are in new areas like Blockchain, Marketing Analytics, and Social Interaction Analytics. These projects will serve as a great base for knowledge development and sharing across Suyati on cutting edge technologies.
+                            </p>
+                            <p>
+                                The <b>Salesforce Audit tool</b> built by the <b>CRM team</b> is expected to significantly assist our DF17 team to have great conversations with prospects. We will also leverage SalesActifi and other SF applications we have built to promote our strengths at DF. A big thanks to the delivery team for so ably supporting our Sales activities.
+                            </p>
+                        </column>
+
+                    </row>
+                </column>
+                <column large="6" small="12">
+                    <row>
+                        <column class="right-padding column">
+                            <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/Audit-tool.jpg" class="img-02" alt="my image" infer />
+                            <p>
+                                The <b>Innovation team</b> is building bots to improve delivery of CRM, e-Commerce and ERP solutions. The team is also driving an aggressive 90 day plan with key deliveries every 30 days. One key challenge they are addressing first is MELT models for Education, Travel and e-Commerce business. Curious about MELT? Visit the Mekanate Lab at our GEO office.
+                            </p>
+                            <p>
+                                We are also working to create a detailed skill inventory tracker for the entire delivery and innovation team. This will help us to improve resource deployments and assist with upskilling and cross skilling initiatives based on incoming demand.
+                            </p>
+                        </column>
+
+                    </row>
+                </column>
+            </row>
+            <row>
+                <column>
+                    <row>
+                        <column class="padding-x padding-t column">
+                            <hr />
+                        </column>
+                    </row>
+                </column>
+            </row>
+            <row>
+                <column class="padding-x">
+                    <h2 class="heading-01 first-p">Training and HR</h2>
+                </column>
+            </row>
+            <row>
+                <column class="left-padding" large="6" small="12">
+                    <p class="first-p">
+                        As part of improving process adherence and measurement across organization, the <b>PMO team</b> is providing interactive sessions with project teams to increase rapid adoption of ERM across all projects. I am already seeing great results in collaboration, communication and project risk management, and this will help us become a more metrics driven organization.
+                    </p>
+                    <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/training-and-HR.jpg" class="img-02" alt="my image" infer />
+                    <p>
+                        <b>New org charts</b> are available in Keka for all employees. We will continue to make minor updates to reflect changes in real-time. The Performance Appraisal process for the first 6 months is in process and I hope you are all having productive KRA and goals related conversations with your supervisors. We will be soon piloting a 360 performance appraisal process through Keka.
+                    </p>
+                </column>
+                <column class="right-padding" large="6" small="12">
+                    <p class="first-p">
+                    A series of <b>linguistic training</b> classes are in progress to help us communicate better with our clients. Additional programs were conducted this month on Anxiety and Stress Handling, and Breast Cancer Awareness.
+                    </p>
+                    <p>
+                    Our team members responded to support victims from the recent floods with a Joy of Giving campaign (more at <a href="http://goonj.org/" class="link-01">goonj.org</a>). We also participated in a “Share a meal on Diwali” drive in association with Robinhood Army. My heartfelt thanks to our volunteer participants and donors.
+                    </p>
+                    <row>
+                        <column class="padding-b">
+                            <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/Diwali-pic_01.jpg" class="img-02" alt="my image" infer />
+                        </column>
+                    </row>
+                    <row>
+                        <column large="6" small="6" class="padding-b">
+                            <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/Diwali-pic_02.jpg" class="img-smal-l" alt="my image" infer />
+                        </column>
+                        <column large="6" small="6" class="padding-b">
+                            <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/Diwali-pic_03.jpg" class="img-smal-r" alt="my image" infer />
+                        </column>
+                    </row>
+                </column>
+            </row>
+
+
+            <row>
+                <column>
+                    <row>
+                        <column class="padding-x padding-t column">
+                            <hr />
+                        </column>
+                    </row>
+                </column>
+            </row>
+
+
+            <row>
+                <column>
+                    <row>
+                        <column class="padding-x padding-b column">
+                            <p>
+                                My best wishes to the DF17 team from Suyati -Sunil, Abhishek, Evita and Shibin from Sales, and Abhishek Subbu and Srini from the Solutioning team. 
+                            </p>
+                            <p>
+                                <b>Go and win DF17 Team! The entire Suyati family is behind you.</b>
+                            </p>
+                        </column>
+                    </row>
+                </column>
+            </row>
+        </container>
+        <container class="bg-02 footer">
+            <row>
+                <column large="12" class="padding-y">
+                    <a href="https://suyati.com">WWW.SUYATI.COM</a>
+                </column>
+            </row>
+        </container>
+    </body>
+</heml>
