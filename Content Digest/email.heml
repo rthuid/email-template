@@ -1,0 +1,297 @@
+<heml>
+
+    <head>
+        <subject>Welcome to HEML!</subject>
+        <style heml-ignore>
+            @media only screen and (max-width:600px) {
+                .padding-left {
+                    padding-left: 15px !important;
+                    padding-right: 15px !important;
+                }
+
+                .padding-right {
+                    padding-left: 15px !important;
+                    padding-right: 15px !important;
+                }
+                .padding-x {
+                    padding-left: 15px !important;
+                    padding-right: 15px !important;
+                }
+                .mob-padding-none {
+                    padding: 0 !important;
+                }
+                /*custom style*/
+                .border-01 {
+                    margin-top: 14px;
+                }
+            }
+            img {
+                margin: auto;
+                min-width: 100%;
+            }
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+            body {
+                font-family: 'Open Sans', sans-serif;
+                color: #414042;
+                background: #f9f9f9;
+            }
+
+            container {
+                max-width: 800px;
+                background: #fff;
+            }
+
+            .text-center {
+                text-align: center;
+            }
+
+            h2 {
+                margin: 10px 0;
+            }
+
+            p {
+                font-size: 13px;
+                color: #717171;
+                margin: 10px 0;
+            }
+
+            .first-p {
+                margin-top: 0;
+            }
+
+            img.banner {
+                width: 800px !important;
+            }
+
+            img.img {
+                width: 345px !important;
+            }
+
+            img.img-01 {
+                width: 355px !important;
+                border: 0;
+                outline: 0;
+            }
+
+            .padding-left {
+                padding-left: 45px;
+                padding-right: 10px;
+            }
+
+            .padding-right {
+                padding-left: 10px;
+                padding-right: 45px;
+            }
+
+            .padding-x {
+                padding-left: 45px;
+                padding-right: 45px;
+            }
+
+            .padding-y {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+            .padding-x-y {
+                padding-top: 15px !important;
+                padding-bottom: 15px !important;
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+
+            .padding-b {
+                padding-bottom: 15px;
+            }
+
+            .padding-t {
+                padding-top: 15px;
+            }
+
+            .margin-t {
+                margin-top: 15px;
+            }
+
+            .verticle-m {
+                vertical-align: middle;
+            }
+
+            /*custom*/
+
+            .heading-01 {
+                text-align: center;
+                background: #e4374b;
+                color: #fff;
+                padding: 5px 0;
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            .heading-02 {
+                font-weight: 600;
+                font-size: 16px;
+                background: #ffa52d;
+                color: #fff;
+                padding: 0px 15px;
+            }
+            .heading-02 p{
+                margin: 15px 0;
+            }
+            .border-01 {
+                display: block;
+                border-bottom: 2px solid #e4374b;
+                vertical-align: middle;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .bg-01 {
+                background: #ffa52d;
+                color: #fff;
+            }
+
+            .margin-0 {
+                margin: 0px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <container>
+            <row>
+                <column class="padding-b">
+                    <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/header.jpg" alt="Suyati" infer />
+                </column>
+            </row>
+            <row>
+                <column class="padding-x padding-y">
+                    <row>
+                        <column small="1" large="4" class="verticle-m">
+                            <row>
+                                <column class="border-01"></column>
+                            </row>
+                        </column>
+                        <column small="10" large="4" class="heading-01">AT SUYATI</column>
+                        <column small="1" large="4" class="verticle-m">
+                            <row>
+                                <column class="border-01"></column>
+                            </row>
+                        </column>
+                    </row>
+                </column>
+            </row>
+            <row>
+                <column class="padding-left padding-t">
+                    <row>
+                        <column>
+                            <row>
+                                <column>
+                                    <a href="https://suyati.com/blog/5-ways-convince-boss-dreamforce-2017/">
+                                        <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/345X235.png" alt="Suyati" infer />
+                                    </a>
+                                </column>
+                            </row>
+                            <row>
+                                <column class="heading-02">
+                                    <a href="https://suyati.com/blog/5-ways-convince-boss-dreamforce-2017/">
+                                    <p>
+                                        5 ways to convince your boss to send you to Dreamforce 2017
+                                    </p>
+                                    </a>
+                                </column>
+                            </row>
+                            <row>
+                                <column>
+                                    <p>
+                                        Here are five reasons why not attending the conference will be a bad idea for your enterprise.
+                                    </p>
+                                </column>
+                            </row>
+                        </column>
+                    </row>
+                </column>
+                <column class="padding-right padding-t">
+                    <row>
+                        <column large="7" class="bg-01 verticle-m">
+                            <a href="https://suyati.com/blog/salesforce-einstein-first-anniversary/">
+                                <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/201X113.png" alt="Suyati" infer />
+                            </a>
+                        </column>
+                        <column class="bg-01 heading-02 verticle-m" large="5">
+                            <a href="https://suyati.com/blog/salesforce-einstein-first-anniversary/">
+                            <p class="margin-0">
+                                Salesforce Einstein – A Year in Review
+                            </p>
+                            </a>
+                        </column>
+                    </row>
+                    <row>
+                        <column>
+                            <p>
+                                The hugely popular Salesforce Einstein is now one year old. Has it walked the talk, and really empowered sales and business?  Read on to find out.
+                            </p>
+                        </column>
+                    </row>
+                    <row>
+                        <column large="7" class="bg-01 verticle-m">
+                            <a href="https://suyati.com/blog/dreamforce-2017-10-sessions-to-attend/">
+                            <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/201X113_2.png" alt="Suyati" infer />
+                            </a>
+                        </column>
+                        <column class="bg-01 heading-02 verticle-m" large="5">
+                            <a href="https://suyati.com/blog/dreamforce-2017-10-sessions-to-attend/">
+                            <p class="margin-0">
+                                DreamForce 2017: Top 10 Sessions You Cannot Afford to Miss
+                            </p>
+                            </a>
+                        </column>
+                    </row>
+                    <row>
+                        <column>
+                            <p>
+                                Here are top 10 sessions at Dreamforce 2017 that you just can’t afford to miss. Check them out.
+                            </p>
+                        </column>
+                    </row>
+                </column>
+            </row>            
+            <row>
+                <column class="padding-x padding-y">
+                    <row>
+                        <column small="1" large="4" class="verticle-m">
+                            <row>
+                                <column class="border-01"></column>
+                            </row>
+                        </column>
+                        <column small="10" large="4" class="heading-01">WHITEPAPERS</column>
+                        <column small="1" large="4" class="verticle-m">
+                            <row>
+                                <column class="border-01"></column>
+                            </row>
+                        </column>
+                    </row>
+                </column>
+            </row>
+            <row>
+                <column  small="12" large="6" class="padding-left padding-t text-center">
+                    <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/07.png" alt="Suyati" infer />
+                    <h2 class="heading-03">Digital Transformation in Sales</h2>
+                    <p>
+                    This white paper elucidates the major technology-induced disruptions to the sales channel, and how Salesforce helps enterprises cope with such disruptions and fight the competitors.
+                    </p>
+                </column>
+                <column  small="12" large="6" class="padding-right padding-t text-center">
+                    <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/06.png" alt="Suyati" infer />
+                    <h2 class="heading-03">Selling on the go – Why is Mobile CRM a must have for enterprises?</h2>
+                    <p>
+                    The white paper explains how a mobile CRM helps key stakeholders involved in the “selling” process and how enterprises can leverage mobile CRM to improve their bottom-line.
+                    </p>
+                </column>
+            </row>
+        </container>
+    </body>
+</heml>
