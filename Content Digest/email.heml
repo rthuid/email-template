@@ -1,7 +1,7 @@
 <heml>
 
     <head>
-        <subject>Welcome to HEML!</subject>
+        <subject>Content digest</subject>
         <style heml-ignore>
             @media only screen and (max-width:600px) {
                 .padding-left {
@@ -23,6 +23,10 @@
                 /*custom style*/
                 .border-01 {
                     margin-top: 14px;
+                }
+                .mob-padding-t{
+                    padding-top: 15px !important;
+                    padding-bottom: 15px !important;
                 }
             }
             img {
@@ -55,6 +59,11 @@
                 font-size: 13px;
                 color: #717171;
                 margin: 10px 0;
+            }
+            a {
+                text-decoration: none;
+                margin: 0;
+                padding: 0;
             }
 
             .first-p {
@@ -128,6 +137,9 @@
                 font-size: 16px;
                 font-weight: 600;
             }
+            .heading-01 a{
+                color: #fff;
+            }
 
             .heading-02 {
                 font-weight: 600;
@@ -135,7 +147,9 @@
                 background: #ffa52d;
                 color: #fff;
                 padding: 0px 15px;
+                margin: 0;
             }
+
             .heading-02 p{
                 margin: 15px 0;
             }
@@ -145,9 +159,6 @@
                 vertical-align: middle;
             }
 
-            a {
-                text-decoration: none;
-            }
 
             .bg-01 {
                 background: #ffa52d;
@@ -156,6 +167,28 @@
 
             .margin-0 {
                 margin: 0px;
+            }
+            .heading-03{
+                font-size: 20px;
+            }
+            .heading-04{
+                font-size: 20px;
+                color: #fff;
+            }
+            .heading-04 a{
+                color: #fff;
+            }
+            .color-01,.color-01 a{
+                color: #fff;
+            }
+            .footer{
+                padding: 15px 0;
+                border-bottom: 5px solid #e4374b;
+                text-align: center;
+            }
+            .footer a{
+                color: #000;
+                text-align: center;
             }
         </style>
     </head>
@@ -185,7 +218,7 @@
                 </column>
             </row>
             <row>
-                <column class="padding-left padding-t">
+                <column class="padding-left padding-y">
                     <row>
                         <column>
                             <row>
@@ -197,11 +230,9 @@
                             </row>
                             <row>
                                 <column class="heading-02">
-                                    <a href="https://suyati.com/blog/5-ways-convince-boss-dreamforce-2017/">
                                     <p>
                                         5 ways to convince your boss to send you to Dreamforce 2017
                                     </p>
-                                    </a>
                                 </column>
                             </row>
                             <row>
@@ -214,19 +245,17 @@
                         </column>
                     </row>
                 </column>
-                <column class="padding-right padding-t">
+                <column class="padding-right padding-y">
                     <row>
                         <column large="7" class="bg-01 verticle-m">
                             <a href="https://suyati.com/blog/salesforce-einstein-first-anniversary/">
                                 <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/201X113.png" alt="Suyati" infer />
                             </a>
                         </column>
-                        <column class="bg-01 heading-02 verticle-m" large="5">
-                            <a href="https://suyati.com/blog/salesforce-einstein-first-anniversary/">
+                        <column class="bg-01 heading-02 verticle-m padding-y mob-padding-t" large="5">
                             <p class="margin-0">
                                 Salesforce Einstein – A Year in Review
                             </p>
-                            </a>
                         </column>
                     </row>
                     <row>
@@ -242,12 +271,10 @@
                             <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/201X113_2.png" alt="Suyati" infer />
                             </a>
                         </column>
-                        <column class="bg-01 heading-02 verticle-m" large="5">
-                            <a href="https://suyati.com/blog/dreamforce-2017-10-sessions-to-attend/">
+                        <column class="bg-01 heading-02 verticle-m padding-y mob-padding-t" large="5">
                             <p class="margin-0">
                                 DreamForce 2017: Top 10 Sessions You Cannot Afford to Miss
                             </p>
-                            </a>
                         </column>
                     </row>
                     <row>
@@ -277,19 +304,217 @@
                 </column>
             </row>
             <row>
-                <column  small="12" large="6" class="padding-left padding-t text-center">
-                    <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/07.png" alt="Suyati" infer />
-                    <h2 class="heading-03">Digital Transformation in Sales</h2>
+                <column  small="12" large="6" class="padding-left padding-y text-center">
+                    <a href="https://suyati.com/whitepaper/digital-transformation-in-your-sales-channels/">
+                        <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/07.png" alt="Suyati" infer />
+                    </a>                    
+                    <h2 class="heading-03">Digital Transformation<br> in Sales</h2>
                     <p>
                     This white paper elucidates the major technology-induced disruptions to the sales channel, and how Salesforce helps enterprises cope with such disruptions and fight the competitors.
                     </p>
                 </column>
-                <column  small="12" large="6" class="padding-right padding-t text-center">
-                    <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/06.png" alt="Suyati" infer />
+                <column  small="12" large="6" class="padding-right padding-y text-center">
+                    <a href="https://suyati.com/whitepaper/mobile-crm-for-enterprises/">
+                        <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/06.png" alt="Suyati" infer />
+                    </a>                    
                     <h2 class="heading-03">Selling on the go – Why is Mobile CRM a must have for enterprises?</h2>
                     <p>
                     The white paper explains how a mobile CRM helps key stakeholders involved in the “selling” process and how enterprises can leverage mobile CRM to improve their bottom-line.
                     </p>
+                </column>
+            </row>        
+            <row>
+                <column class="padding-x padding-y">
+                    <row>
+                        <column small="1" large="4" class="verticle-m">
+                            <row>
+                                <column class="border-01"></column>
+                            </row>
+                        </column>
+                        <column small="10" large="4" class="heading-01">INFOGRAPHICS</column>
+                        <column small="1" large="4" class="verticle-m">
+                            <row>
+                                <column class="border-01"></column>
+                            </row>
+                        </column>
+                    </row>
+                </column>
+            </row>
+            <row>
+                <column class="padding-x padding-y">
+                    <row class="bg-01">
+                        <column small="12" large="6" class="verticle-m">
+                            <a href="https://suyati.com/blog/dreamforce-2017-infographic/">
+                            <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/08.png" alt="Suyati" infer />
+                            </a>
+                        </column>
+                        <column small="12" large="6" class="verticle-m bg-01">
+                            <row>
+                                <column class="verticle-m bg-01 padding-x-y">
+                                    <h2 class="heading-04">Top 5 reasons to attend Dreamforce 2017</h2>
+                                    <p class="color-01">Five good reasons you should be joining the hordes of tech pilgrims making their way to San Francisco to participate in this 4 day event.</p>
+                                </column>
+                            </row>  
+                        </column>
+                    </row>
+                </column>
+            </row>      
+            <row>
+                <column class="padding-x padding-y">
+                    <row>
+                        <column small="1" large="4" class="verticle-m">
+                            <row>
+                                <column class="border-01"></column>
+                            </row>
+                        </column>
+                        <column small="10" large="4" class="heading-01">MUKUNDKRISHNA<span>.</span>COM</column>
+                        <column small="1" large="4" class="verticle-m">
+                            <row>
+                                <column class="border-01"></column>
+                            </row>
+                        </column>
+                    </row>
+                </column>
+            </row>
+            <row>
+                <column class="padding-left padding-y">
+                    <row>
+                        <column>
+                            <row>
+                                <column>
+                                    <a href="http://www.mukundkrishna.com/blog/gdpr-is-it-a-threat-or-a-boon/">
+                                        <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/02.jpg" alt="Suyati" infer />
+                                    </a>
+                                </column>
+                            </row>
+                            <row>
+                                <column class="heading-02">
+                                    <p>
+                                        GDPR:<br> Is it a threat or a boon?
+                                    </p>
+                                </column>
+                            </row>
+                            <row>
+                                <column>
+                                    <p>
+                                        As we prepare for the enforcement of GDPR, the hot debate is still on. Is it a boon or a bane? How will it affect IT and Tech giants that rely on customer data? Read more
+                                    </p>
+                                </column>
+                            </row>
+                        </column>
+                    </row>
+                </column>
+                <column class="padding-right padding-y">
+                    <row>
+                        <column>
+                            <row>
+                                <column>
+                                    <a href="https://www.linkedin.com/pulse/everyday-irrationality-architecture-choice-behavioral-mukund-krishna/">
+                                        <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/03.jpg" alt="Suyati" infer />
+                                    </a>
+                                </column>
+                            </row>
+                            <row>
+                                <column class="heading-02">
+                                    <p>
+                                        Welcome to the world of Behavioral Economics
+                                    </p>
+                                </column>
+                            </row>
+                            <row>
+                                <column>
+                                    <p>
+                                        Behavioral Economics! The new buzzword in marketing circles attempts to understand how the ‘irrational’ agents ‘nudge’ consumers in to making choices. Find out how it relates to your business.
+                                    </p>
+                                </column>
+                            </row>
+                        </column>
+                    </row>
+                </column>
+            </row>  
+            
+            
+                 
+            <row>
+                <column class="padding-x padding-y">
+                    <row>
+                        <column small="1" large="4" class="verticle-m">
+                            <row>
+                                <column class="border-01"></column>
+                            </row>
+                        </column>
+                        <column small="10" large="4" class="heading-01">LIFE AT SUYATI</column>
+                        <column small="1" large="4" class="verticle-m">
+                            <row>
+                                <column class="border-01"></column>
+                            </row>
+                        </column>
+                    </row>
+                </column>
+            </row>
+            <row>
+                <column class="padding-left padding-y">
+                    <row>
+                        <column>
+                            <row>
+                                <column>
+                                    <a href="https://suyati.com/blog/aditya-mohandasan-suyati-journey/">
+                                        <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/04.jpg" alt="Suyati" infer />
+                                    </a>
+                                </column>
+                            </row>
+                            <row>
+                                <column class="heading-02">
+                                    <p>
+                                        Journey at Suyati - Aditya Mohandas
+                                    </p>
+                                </column>
+                            </row>
+                            <row>
+                                <column>
+                                    <p>
+                                        An interview with Aditya on how he joined Suyati, his projects, client visit to Paris.
+                                    </p>
+                                </column>
+                            </row>
+                        </column>
+                    </row>
+                </column>
+                <column class="padding-right padding-y">
+                    <row>
+                        <column>
+                            <row>
+                                <column>
+                                    <a href="https://suyati.com/blog/suyati-table-tennis-interesting-facts/">
+                                        <img src="https://d24cdstip7q8pz.cloudfront.net/t/t20170104173225/content/common/images/05.jpg" alt="Suyati" infer />
+                                    </a>
+                                </column>
+                            </row>
+                            <row>
+                                <column class="heading-02">
+                                    <p>
+                                        Table Tennis League
+                                    </p>
+                                </column>
+                            </row>
+                            <row>
+                                <column>
+                                    <p>
+                                        Table tennis league at Suyati covered click by click. 
+                                    </p>
+                                </column>
+                            </row>
+                        </column>
+                    </row>
+                </column>
+            </row> 
+            <row>
+                <column large="12" class="padding-x footer">
+                    <row>
+                        <column large="12" class="text-center">
+                            <a href="http://www.suyati.com/">WWW.SUYATI.COM</a>
+                        </column>                    
+                    </row>
                 </column>
             </row>
         </container>
